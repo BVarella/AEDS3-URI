@@ -22,6 +22,8 @@ int main(){
 			if(cidades[j] == numCidades-1)
 				++result;
 		}
+		if(numVisiveis == numCidades+2)
+			++result;
 		printf("%d\n", result);
 	}
 
